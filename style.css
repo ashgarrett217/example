@@ -1,0 +1,93 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1000px;
+  font-family: 'Quattrocento', serif;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+}
+
+/* Layout */
+
+section {
+}
+
+main {
+  font-size: 10px;
+  display: flex;
+}
+
+aside {
+
+}
+
+nav {
+  font-family: 'Quattrocento', serif;
+
+}
+
+footer {
+  font-family: 'Quattrocento', serif;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+a {
+  color: #ab6866;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  color: #7f4c4b;
+  text-decoration: none;
+}
+
+button {
+  outline-color: #ab6866;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-family: 'Quattrocento', serif;
+  width: 150px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a2 {
+  color: #ab6866
+}
